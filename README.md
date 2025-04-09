@@ -4,10 +4,8 @@ Simple one-liner scripts for grabbing basic network info (IP, MAC, Gateway) and 
 🪟 Windows (PowerShell)
 Paste this into Windows PowerShell (right-click Start → “Windows PowerShell”):
 
-powershell
-Copy
-Edit
 irm https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-windows.ps1 | iex
+
 This will display:
 
 IP Address
@@ -21,10 +19,8 @@ Traceroute to the Gateway
 🍏 macOS
 Paste this into Terminal and hit Enter:
 
-bash
-Copy
-Edit
-curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-macos.sh | bash
+curl -s https://raw.githubusercontent.com/AmeelMD/scriptsnstuff/main/network-check-macos.sh | bash
+
 This will display:
 
 Network interface name
@@ -42,10 +38,8 @@ Traceroute to the Gateway (if installed)
 🐧 Linux
 Paste this into Terminal and hit Enter:
 
-bash
-Copy
-Edit
-curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-linux.sh | bash
+\curl -s https://raw.githubusercontent.com/AmeelMD/scriptsnstuff/main/network-check-linux.sh | bash
+
 This will display:
 
 IP Address
