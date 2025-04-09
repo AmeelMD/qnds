@@ -7,7 +7,7 @@ Paste this into Windows PowerShell (right-click Start → “Windows PowerShell�
 powershell
 Copy
 Edit
-irm https://raw.githubusercontent.com/AmeelMD/scriptsnstuff/main/network-check-windows.ps1 | iex
+irm https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-windows.ps1 | iex
 This will display:
 
 IP Address
@@ -24,7 +24,7 @@ Paste this into Terminal and hit Enter:
 bash
 Copy
 Edit
-curl -s https://raw.githubusercontent.com/AmeelMD/scriptsnstuff/main/network-check-macos.sh | bash
+curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-macos.sh | bash
 This will display:
 
 Network interface name
@@ -45,7 +45,7 @@ Paste this into Terminal and hit Enter:
 bash
 Copy
 Edit
-curl -s https://raw.githubusercontent.com/AmeelMD/scriptsnstuff/main/network-check-linux.sh | bash
+curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-linux.sh | bash
 This will display:
 
 IP Address
