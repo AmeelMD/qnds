@@ -25,15 +25,15 @@ irm https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-windows.ps
 #### ✅ Example Output:
 ```
 ========= Network Info =========
-IP Address   : 10.21.4.38
-MAC Address  : F4-26-79-FC-9F-54
-Gateway      : 10.21.4.1
+IP Address   : 192.168.0.38
+MAC Address  : F4-45-79-FC-9F-54
+Gateway      : 192.168.0.1
 
-Traceroute to Gateway (10.21.4.1):
+Traceroute to Gateway (192.168.0.1):
 --------------------------------
-Tracing route to 10.21.4.1 over a maximum of 30 hops
+Tracing route to 192.168.0.1 over a maximum of 30 hops
 
-  1    <1 ms    <1 ms    <1 ms  10.21.4.1
+  1    <1 ms    <1 ms    <1 ms  192.168.0.1
 
 Trace complete.
 ```
@@ -67,14 +67,13 @@ curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-macos.
 ```
 ========= Network Info =========
 Interface     : en1
-IP Address    : 10.11.4.102
-MAC Address   : 7a:9e:3b:cd:aa:f2
-Gateway       : 10.11.4.1
+IP Address    : 192.168.0.38
+MAC Address   : 7a:45:3b:cd:aa:f2
+Gateway       : 192.168.0.1
 
-Traceroute to Gateway (10.11.4.1):
+Traceroute to Gateway (192.168.0.1):
 --------------------------------
- 1  10.21.4.1  2.3 ms  2.1 ms  2.0 ms
- 2  10.11.4.1  5.3 ms  5.2 ms  5.2 ms
+ 1  192.168.0.1  2.3 ms  2.1 ms  2.0 ms
 ```
 
 ---
@@ -102,14 +101,13 @@ curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-linux.
 #### ✅ Example Output:
 ```
 ========= Network Info =========
-IP Address    : 10.11.4.55
-MAC Address   : 08:00:27:ab:cd:ef
-Gateway       : 10.11.4.1
+IP Address    : 192.168.0.38
+MAC Address   : 08:45:27:ab:cd:ef
+Gateway       : 192.168.0.1
 
-Traceroute to Gateway (10.11.4.1):
+Traceroute to Gateway (192.168.0.1):
 --------------------------------
- 1  10.21.4.1  2.1 ms  1.9 ms  1.8 ms
- 2  10.11.4.1  4.7 ms  4.6 ms  4.6 ms
+ 1  192.168.0.1  2.1 ms  1.9 ms  1.8 ms
 ```
 
 ---
