@@ -6,7 +6,7 @@ Use these one-liners to collect network information and troubleshoot connectivit
 
 ### 🪟 Windows (PowerShell)
 
-> 💬 Ask the user to right-click **Start** and select **“Windows PowerShell”**, then paste the line below:
+> 💬 To use, right-click **Start** and select **“Windows PowerShell”** or click on **Start** and type **“Windows PowerShell”** the find and launch, then paste the line below and hit **Enter**:
 
 ```powershell
 irm https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-windows.ps1 | iex
@@ -22,7 +22,7 @@ irm https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-windows.ps
 
 ### 🍏 macOS (Terminal)
 
-> 💬 Ask the user to open **Terminal**, paste the following, and press Enter:
+> 💬 To use, open the **Terminal** application, then paste the following, and press Enter:
 
 ```bash
 curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-macos.sh | bash
@@ -35,13 +35,13 @@ curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-macos.
 - Gateway
 - Traceroute to the Gateway
 
-> ℹ️ If `traceroute` is missing, they can install it via: `brew install traceroute`
+> ℹ️ If `traceroute` is missing, they can install it via: `brew install traceroute`, **Brew** may need to be installed.
 
 ---
 
 ### 🐧 Linux (Terminal)
 
-> 💬 Ask the user to open **Terminal**, paste the following, and press Enter:
+> 💬 To use, open **Terminal** application, then paste the following, and press Enter:
 
 ```bash
 curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-linux.sh | bash
