@@ -22,12 +22,28 @@ irm https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-windows.ps
 - Default Gateway  
 - Traceroute to the Gateway  
 
+#### ✅ Example Output:
+```
+========= Network Info =========
+IP Address   : 10.21.4.38
+MAC Address  : F4-26-79-FC-9F-54
+Gateway      : 10.21.4.1
+
+Traceroute to Gateway (10.21.4.1):
+--------------------------------
+Tracing route to 10.21.4.1 over a maximum of 30 hops
+
+  1    <1 ms    <1 ms    <1 ms  10.21.4.1
+
+Trace complete.
+```
+
 ---
 
 ### 🍏 macOS (Terminal)
 
 > 💬 **How to run:**  
-> Open the **Terminal** application (find it via Spotlight search with ⌘ + Space, type `Terminal`, press Enter),  
+> Open the **Terminal** application (⌘ + Space → type `Terminal` → Enter),  
 > then paste the line below and press **Enter**:
 
 ```bash
@@ -46,6 +62,20 @@ curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-macos.
 > brew install traceroute
 > ```
 > You may need to install **Homebrew** first: https://brew.sh
+
+#### ✅ Example Output:
+```
+========= Network Info =========
+Interface     : en1
+IP Address    : 10.11.4.102
+MAC Address   : 7a:9e:3b:cd:aa:f2
+Gateway       : 10.11.4.1
+
+Traceroute to Gateway (10.11.4.1):
+--------------------------------
+ 1  10.21.4.1  2.3 ms  2.1 ms  2.0 ms
+ 2  10.11.4.1  5.3 ms  5.2 ms  5.2 ms
+```
 
 ---
 
@@ -68,5 +98,18 @@ curl -s https://raw.githubusercontent.com/AmeelMD/qnds/main/network-check-linux.
 > ```bash
 > sudo apt install traceroute
 > ```
+
+#### ✅ Example Output:
+```
+========= Network Info =========
+IP Address    : 10.11.4.55
+MAC Address   : 08:00:27:ab:cd:ef
+Gateway       : 10.11.4.1
+
+Traceroute to Gateway (10.11.4.1):
+--------------------------------
+ 1  10.21.4.1  2.1 ms  1.9 ms  1.8 ms
+ 2  10.11.4.1  4.7 ms  4.6 ms  4.6 ms
+```
 
 ---
